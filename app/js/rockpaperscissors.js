@@ -26,13 +26,51 @@ function getPlayerMove(move) {
     // If a `move` has a value, your expression should evaluate to that value.
     // However, if `move` is not specified / is null, your expression should equal `getInput()`.
     return /* Your Expression */;
-}
+{
+
+        if(PlayerMove (“ROCK"){
+   		if(computerMove("PAPER")){
+                //rock loses on paper
+                
+            }
+				}
+
+            	else if(computerMove("SCISSORS")){
+                //rock beats scissors
+                
+            }
+           			}
+        
+        else if(PlayerMove(“PAPER"){
+   		if(computerMove("SCISSORS")){
+                //paper loses to scissors
+	     
+	    }
+				}
+
+		else if(computerMove(“ROCK")){
+                //paper wins over rock
+	    }
+				}
+        
+        else if(PlayerMove(“SCISSORS"){
+		if(computerMove(“ROCK")){
+                //scissors loses to rock
+                
+            }
+				}
+            else if(computerMove("PAPER")){
+                //scissors win on paper
+                
+            }
+        			}            
+        
+	else (getInput ()){
+
+	    }
 
 function getComputerMove(move) {
-    // Write an expression that operates on a variable called `move`
-    // If a `move` has a value, your expression should evaluate to that value.
-    // However, if `move` is not specified / is null, your expression should equal `randomPlay()`.
-    return /* Your Expression */;
+    
 }
 
 function getWinner(playerMove,computerMove) {
